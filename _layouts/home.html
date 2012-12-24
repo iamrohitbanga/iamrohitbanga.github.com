@@ -1,0 +1,68 @@
+<html>
+{% include head.html %}
+
+<body>
+      {% include header.html %}
+
+        <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
+        <div class="container">
+
+            <!-- Main hero unit for a primary marketing message or call to action -->
+            <div class="hero-unit">
+		<div class="mainPageText">
+		  <h2>Hello, world!</h2>
+		  <p>Thank you for visiting my home page.
+		     My name is Rohit Banga. I am a Software Developer.
+		     I am currently pursuing my Master's degree in Computer Science at
+		     <a href="http://www.gatech.edu/">Georgia Tech</a>.
+		     I was born and brought up in India and I love home made Indian food.
+		  </p>
+		  <p>
+		     I wrote my first "Hello World" program in the summer of 2003 in C++ compiled
+		     using Turbo C++ Compiler on an old i386 PC.
+		     Programming has been my passion since then. As a student and a professional
+		     developer I have tried to diversify my knowledgebase by working on projects
+		     from different fields and also working on different parts of the software stack.
+		  </p>
+
+		  <a href="http://www.linkedin.com/in/iamrohitbanga">
+		    <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" 
+		    width="160" height="33" border="0" alt="View Rohit Banga's profile on LinkedIn">
+		  </a>
+		</div>
+		<div class="profilePicture">
+		  <img src="img/mainpic.jpg" alt="Profile Picture"/>
+		</div>
+            </div>
+
+            <!-- Example row of columns -->
+            <div class="row">
+                <div class="span4">
+                    <h3>Current Project</h3>
+                    <p>
+		    I am currently working on <a href="http://v2v.cc.gatech.edu">Vein-to-Vein</a>
+		    an open source software solution for tracking
+		    the lifecycle of blood from the point of donation to transfusion.
+		    My advisor for this project is <a href="http://www.cc.gatech.edu/~vempala/">Dr. Santosh Vempala</a>.
+		    This software product is aimed at replacing the manual procedure adopted for managing
+		    blood products in several developing countries of Africa.
+		    This is a collaboration between the
+		    <a href="http://www.cc.gatech.edu/about/advancing/c4g/">Computing for Good (C4G) </a>
+		    program at Georgia Tech,
+		    the <a href="http://www.cdc.gov/">CDC</a> and the participating countries.
+		    </p>
+		    <p>
+		    Follow this project on Github:
+		    <iframe src="http://ghbtns.com/github-btn.html?user=C4G&repo=V2V&type=watch&count=true"
+		      allowtransparency="true" frameborder="0" scrolling="0" width="110px" height="20px"></iframe>
+		    </p>
+                    <p><a class="btn" href="projects.html">View details &raquo;</a></p>
+                </div>
+            </div>
+
+        </div> <!-- /container -->
+
+  {% include footer.html %}
+  {% include analytics.html %}
+
+</body>
