@@ -13,17 +13,16 @@
 
 .mainPageText {
   display: inline-block;
-  position: absolute;
-  left: 50px;
   width: 650px;
   font-size: 15px;
 }
 
 .profilePicture {
-  position: absolute;
-  right: 100px;
+  position: relative;
+  left: 100px;
   width: 300px;
   display: inline-block;
+  vertical-align: top;
 }
 
 .footer {
